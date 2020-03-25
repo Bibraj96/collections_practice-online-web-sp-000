@@ -50,4 +50,6 @@ def add_s(array)
     if index != 1
     word << "s"
   end
+  index += 1
+  end
 end
