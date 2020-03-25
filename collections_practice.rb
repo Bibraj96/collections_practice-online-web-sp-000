@@ -5,13 +5,7 @@ def sort_array_asc(ints)
 end
 
 def sort_array_desc(ints)
-  ints.sort do |a, b|
-    if a == b
-      0
-    elsif a < b
-      1
-    elsif a > b
-      -1
-    end
+  ints.sort do |b, a|
+    a <=> b
   end
 end
