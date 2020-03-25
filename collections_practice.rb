@@ -16,7 +16,7 @@ def sort_array_char_count(ints)
   end
 end
 
-def reverse_array(arr)
-  arr.reverse()
-  return arr
+def reverse_array(integers)
+  new_array = integers.reverse
+  new_array
 end
