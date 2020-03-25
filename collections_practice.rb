@@ -24,3 +24,7 @@ def reverse_array(ints)
   new_array = ints.reverse
   new_array
 end
+
+def kesha_maker
+  
+end
