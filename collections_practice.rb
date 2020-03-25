@@ -20,4 +20,5 @@ def reverse_array(arr)
   arr.map do |elmnt|
     elmnt.reverse
   end
+  arr
 end
