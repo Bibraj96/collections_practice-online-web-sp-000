@@ -17,12 +17,10 @@ def sort_array_char_count(ints)
 end
 
 def swap_elements(array)
-  
+
 end
 
 def reverse_array(ints)
   new_array = ints.reverse
   new_array
 end
-
-
