@@ -15,3 +15,9 @@ def sort_array_char_count(ints)
     a.length <=> b.length
   end
 end
+
+def reverse_array(arr)
+  arr.map do |elmnt|
+    elmnt.reverse
+  end
+end
