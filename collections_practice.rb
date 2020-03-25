@@ -17,8 +17,7 @@ def sort_array_char_count(ints)
 end
 
 def reverse_array(arr)
-  arr.map do |elmnt|
-    elmnt.reverse
-  end
-  arr
+  arr.reverse()
+  return arr
+end
 end
